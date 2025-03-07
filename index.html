@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -24,11 +24,16 @@
 
     <section class="home flex-center" id="home">
         <div class="home-container">
-             <div class="media-icons">
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-leetcode"></i></a>
-             </div>
+            <div class="media-icons">
+                <a href="https://www.linkedin.com/in/saket-raj-5aaa45253/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/saketsraj" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <!-- Add other social links here -->
+            </div>
+            
              <div class="info">
                 <h2>Hey, I'm Saket</h2>
                 <h3>Full Stack Web Developer</h3>
@@ -44,7 +49,7 @@
 
     <section class="about section" id="about">
         <div class="container flex-center ">
-            <h1 class="section-title-01">About Me</h1>
+            <h1 class="section-title">About Me</h1>
             <!-- <h2 class="section-title-02"></h2> -->
             <div class="content flex-center">
                 <div class="about-info">
@@ -53,13 +58,103 @@
                         <h4>A <span>Full Stack Web Developer</span> based in <span>Bangalore</span></h4>
                         <p>I am a final-year Electronics and Communication Engineering student in my 8th semester at B.N.M Institute of Technology. With a strong grasp of Computer Science fundamentals like programming, data structures, and algorithms, I am passionate about software development. My experience in languages such as C, Java, and Python, along with full-stack development and machine learning, has equipped me with the skills to solve complex problems and contribute effectively to software engineering projects.</p>
                     </div>
-                    <a href="" class="btn">Download Resume <i class="fas fa-download"></i></a>
+                    <a href="SaketRaj.pdf" class="btn" download>
+                        Download Resume <i class="fas fa-download"></i>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills section" id="skills">
+        <div class="container flex-center">
+            <h1 class="section-title">Skills</h1>
+            <div class="content">
+                <div class="skills-description">
+                    <p>Throughout my academic and professional journey, I have gained valuable experience working on various projects that have allowed me to hone my technical skills in full-stack development, machine learning, and system optimization.</p>
+                    <h2>Technologies & Tools I’ve Worked With</h2>
+                </div>
+                <div class="skills-grid">
+                    <img src="logos/html5.svg" alt="HTML">
+                    <img src="logos/css3.svg" alt="CSS">
+                    <img src="logos/js.svg" alt="JavaScript">
+                    <img src="logos/python.svg" alt="Python">
+                    <img src="logos/java.svg" alt="Java">
+                    <img src="logos/mysql.svg" alt="MySQL">
+                    <img src="logos/git.svg" alt="Git">
+                    <img src="logos/github.svg" alt="GitHub">
+                    <img src="logos/linux.svg" alt="Linux">
+                    <img src="logos/rest-api-icon.svg" alt="REST API">
+                    <img src="logos/spring-boot.svg" alt="Spring Boot">
+                    <img src="logos/figma.svg" alt="Figma">
+                    <img src="logos/canva.svg" alt="Canva">
+                    <img src="logos/devops.svg" alt="DevOps">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+<!-- Contact Section -->
+
+    <section class="contact section" id="contact">
+        <div class="container flex-center">
+            <h1 class="section-title">Contact Me</h1>
+            <div class="content">
+                <div class="content-left">
+                    <h2>Let's Connect</h2>
+                    <ul class="contact-list">
+                        <li class="contact-list">
+                            <h3 class="item-title"><i class="fas fa-envelope"></i> Email Address</h3>
+                            <span><a href="mailto:saket.sraj@gmail.com">saket.sraj@gmail.com</a></span>
+                        </li>
+                        <li class="contact-list">
+                            <h3 class="item-title"><i class="fab fa-linkedin"></i> LinkedIn</h3>
+                            <span><a href="https://www.linkedin.com/in/saket-raj-5aaa45253/" target="_blank" class="linkedin-link">Saket Raj</a></span>
+                        </li>
+                        <li class="contact-list">
+                            <h3 class="item-title"><i class="fas fa-map-marker-alt"></i> Current Address</h3>
+                            <span>Bengaluru, Karnataka, India</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-right">
+                    <p>You can message me directly. <br> I’m always up for conversations or collabs.</p>
+                    <form action="" class="contact-form">
+                        <div class="first-row">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="second-row">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="third-row">
+                            <textarea name="message" id="" rows="7" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>                        
+                    </form>
                 </div>
             </div>
         </div>
     </section>
 
 
+
+    <footer>
+        <div class="footer-container">
+            <h3>Follow:</h3>
+            <ul class="social-links">
+                <li><a href="https://www.linkedin.com/in/saket-raj-5aaa45253/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/saketsraj" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2021 by Coding Snow. All rights reserved.</p>
+        </div>
+    </footer>
+    
+      
+      
 
 
 
