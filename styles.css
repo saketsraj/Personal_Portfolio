@@ -559,6 +559,8 @@ footer {
         right: 0;
         margin: 10px;
         cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+        border-radius: 50%; /* Optional: Make the button round */
     }
 
     .nav-menu-btn{
@@ -570,6 +572,8 @@ footer {
         height: 40px;
         cursor: pointer;
         display: block;
+        background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+        border-radius: 50%; /* Optional: Make the button round */
     }
 
     /* Home Section */
