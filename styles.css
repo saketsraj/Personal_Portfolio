@@ -663,7 +663,7 @@ footer {
     }
     .home-container .home-img img{
         width: 65%;
-        transform: translate(80px, -90px);
+        transform: translate(80px, -65px);
     }
     .home .home-container .info{
         font-size: 0.8rem;
