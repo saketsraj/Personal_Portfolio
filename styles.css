@@ -550,7 +550,7 @@ footer {
     .nav-close-btn{
         position: absolute;
         background: url(../Images/close.svg)no-repeat;
-        filter: var(--color-filter);
+        filter: invert(1); /* Invert the colors */
         background-size: 30px;
         background-position: center;
         width: 40px;
@@ -565,7 +565,7 @@ footer {
 
     .nav-menu-btn{
         background: url(../Images/menu.svg)no-repeat;
-        filter: var(--color-filter);
+        filter: invert(1); /* Invert the colors */
         background-position: center;
         background-size: 30px;
         width: 40px;
