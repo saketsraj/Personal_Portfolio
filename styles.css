@@ -552,7 +552,8 @@ footer {
     .nav-close-btn{
         position: absolute;
         background: url(../Images/close.png)no-repeat;
-        filter: var(--bg-transparent-color);
+        /* filter: var(--bg-transparent-color); */
+        background-color: black;
         background-size: 30px;
         background-position: center;
         width: 40px;
@@ -566,7 +567,8 @@ footer {
 
     .nav-menu-btn{
         background: url(../Images/menu.png)no-repeat;
-        filter: var(--bg-transparent-color);
+        /* filter: var(--bg-transparent-color); */
+        background-color: black;
         background-position: center;
         background-size: 30px;
         width: 40px;
