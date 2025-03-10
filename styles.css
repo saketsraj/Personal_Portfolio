@@ -92,23 +92,25 @@ li{
 } */
 
 
-header{
-    z-index:  99999;
+header {
+    z-index: 99999;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    backdrop-filter: blur(20px);
-    transition: .6s ease;
-}
-header.sticky{
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: var(--box-shadow);
+    background-color: white; /* Solid white background */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    transition: background-color 0.6s ease; /* Smooth transition */
 }
 
-.nav-bar{
+header.sticky {
+    background-color: white; /* Keep the background white when sticky */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.nav-bar {
     position: relative;
-    height:calc(4rem + 1rem);
+    height: calc(4rem + 1rem);
     max-width: 1250px;
     display: flex;
     justify-content: space-between;
@@ -116,7 +118,7 @@ header.sticky{
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px;
-    transition: .6s ease;
+    transition: 0.6s ease;
 }
 
 header.sticky .nav-bar{
