@@ -61,13 +61,13 @@ ScrollReveal({
   });
   
   // Target elements and specify reveal options
-  ScrollReveal().reveal('.home .info h2, .section-title', {origin: 'top',delay: 500});
-  ScrollReveal().reveal('.home .info h3, .home .info p, .about-info .btn', {origin: 'left',delay: 600});
-  ScrollReveal().reveal('.home .info .btn, .contact .content-right', {origin: 'right',delay: 700});
-  ScrollReveal().reveal('.media-icons i, .contact .content-left, .contact-form .btn', {origin: 'left',delay: 500, interval: 200});
-  ScrollReveal().reveal('.home-img', {origin: 'right',delay: 500});
-  ScrollReveal().reveal('.home .scroll-down', {origin: 'bottom',delay: 500});
-  ScrollReveal().reveal('.about .description, .skills .skills-description', {origin: 'left',delay: 500});
+  ScrollReveal().reveal('.home .info h2, .section-title', {origin: 'top', delay: 500});
+  ScrollReveal().reveal('.home .info h3, .home .info p, .about-info .btn', {origin: 'left', delay: 500});
+  ScrollReveal().reveal('.home .info .btn, .contact .content-right', {origin: 'right', delay: 500});
+  ScrollReveal().reveal('.media-icons i, .contact .content-left, .contact-form .btn', {origin: 'left', delay: 300, interval: 200});
+  ScrollReveal().reveal('.home-img', {origin: 'right', delay: 500});
+  ScrollReveal().reveal('.home .scroll-down', {origin: 'bottom', delay: 500});
+  ScrollReveal().reveal('.about .description, .skills .skills-description', {origin: 'left', delay: 300});  
 //   ScrollReveal().reveal('.skills .skills-grid img', {origin: 'top',delay: 500});
 // Reveal the skills logos with a smooth animation when they come into view
 // Reveal the skills logos with animation when they come into view
